@@ -1,56 +1,42 @@
-# PrivaChart - Privacy-First Data Visualization
+# PrivaChart
 
-PrivaChart is a client-side web application designed to create beautiful, interactive charts from CSV data without ever uploading files to a server. It prioritizes user privacy, speed, and simplicity.
+A privacy-first chart maker. All data stays in your browser - nothing is uploaded to any server.
 
-## 🔒 Privacy First
-- **100% Client-Side**: All data processing happens in your browser.
-- **No Uploads**: Your CSV files never leave your device.
-- **No Tracking**: We do not collect any usage data or analytics.
+## Features
 
-## 🚀 Features
-- **Simple Import**: Drag & drop CSV files or paste data directly.
-- **Instant Visualization**: See your data come to life immediately.
-- **Multiple Chart Types**: Support for Bar, Line, Pie, Doughnut, Scatter, and Area charts.
-- **Customizable**: Adjust colors, axes, titles, and legends.
-- **Export Ready**: Download high-quality PNG images of your charts.
+- Drag & drop CSV or paste data directly
+- Bar, Line, Pie, Doughnut, Scatter, and Area charts
+- Export as PNG
+- No tracking, no analytics
 
-## 🛠️ Technical Stack
-- **Framework**: React 19 + Vite
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS 4 (Neo-Brutalism Design System)
-- **Charting**: Chart.js + react-chartjs-2
-- **Parsing**: PapaParse
+## Installation
 
-## 🎨 Design Philosophy
-The interface follows a **Neo-Brutalist** aesthetic, characterized by:
-- High contrast (Black & White with Electric Blue accents)
-- Thick, solid borders
-- Monospace typography (JetBrains Mono)
-- Sharp corners and distinct shadows
-- "Raw" and functional layout
+```bash
+git clone https://github.com/gouthamgo/Privachart.git
+cd Privachart
+pnpm install
+```
 
-## 📦 Installation & Development
+## Usage
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/privachart.git
-   cd privachart
-   ```
+Start the development server:
 
-2. **Install dependencies**
-   ```bash
-   pnpm install
-   ```
+```bash
+pnpm dev
+```
 
-3. **Start development server**
-   ```bash
-   pnpm dev
-   ```
+Build for production:
 
-4. **Build for production**
-   ```bash
-   pnpm build
-   ```
+```bash
+pnpm build
+```
 
-## 📄 License
-MIT License - feel free to use and modify for your own projects.
+Then open your browser and:
+1. Drop a CSV file or paste your data
+2. Select a chart type
+3. Customize as needed
+4. Export your chart
+
+## License
+
+MIT
